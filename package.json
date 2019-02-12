@@ -1,6 +1,6 @@
 {
   "name": "react-smart-toaster",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Super light-weight React component for flash messages",
   "main": "build/index.js",
   "babel": {

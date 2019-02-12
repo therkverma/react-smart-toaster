@@ -10,6 +10,7 @@ Super light-weight React component for flash messages
 
 Checkout Example [Demo](https://github.com/therkverma/react-smart-toaster/) - [Codesandbox Playground](https://codesandbox.io/s/j428ookvnv)
 
+![Preview](https://res.cloudinary.com/therkverma-github-io/image/upload/fl_apng/v1547741460/react-smart-toaster.png)
 
 ### Installation
 
@@ -27,8 +28,16 @@ import { SmartToaster, toast } from 'react-smart-toaster';
 Place `SmartToaster` component in a file that will be render on every page. Like Navbar, Header, Footer or whatever you want to place. Like this:-
 
 ```javascript
-<SmartToaster store={toast} lightBackground={true} position={"top_left"} />
-<button onClick={() => toast.success("React Smart Toaster - Success")}>Success</button>
+<SmartToaster 
+    store={toast} 
+    lightBackground={true} 
+    position={"top_left"}
+/>
+<button onClick={
+    () => toast.success("React Smart Toaster - Success")
+    }>
+    Success
+</button>
 ```
 
 ### Properties (For SmartToaster)
